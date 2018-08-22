@@ -34,7 +34,6 @@ import java.util.ArrayList;
 
 public class HeroFragment extends Fragment {
 
-
     private ArrayList<Hero> heroList;
     private HeroAdapter ha;
 
