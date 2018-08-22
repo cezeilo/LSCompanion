@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/heroIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/heroName"
+        android:text="Hero Name"
+        android:layout_toRightOf="@id/heroIcon"
+        android:textSize="35sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/combatStyle"
+        android:text="Combat Style"
+        android:layout_below="@id/heroName"
+        android:layout_toRightOf="@id/heroID"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/category"
+        android:layout_toRightOf="@id/combatStyle"
+        android:layout_below="@id/heroName"
+        android:text="Category"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heroID"
+        android:id="@+id/heroID"
+        android:layout_below="@id/heroName"
+        android:layout_toRightOf="@id/heroIcon"
+        />
+
+    </RelativeLayout>
+</LinearLayout>

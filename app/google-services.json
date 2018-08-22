@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "843367716589",
+    "firebase_url": "https://lostsaga-ba2db.firebaseio.com",
+    "project_id": "lostsaga-ba2db",
+    "storage_bucket": "lostsaga-ba2db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843367716589:android:d9f9ba8bb7f71a63",
+        "android_client_info": {
+          "package_name": "apps.chima.lostsagacompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843367716589-hul6kclo948s0f9rc1nbiqrv5kk28uen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "apps.chima.lostsagacompanion",
+            "certificate_hash": "9804d73fe2fc7ba5b2a6b6ef7044594268e23f44"
+          }
+        },
+        {
+          "client_id": "843367716589-7js3bucs1opolru80fqhu7rfdk69e53o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvuMU_u3x3-cuCA13WDIUxL0777bh_v1E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843367716589-7js3bucs1opolru80fqhu7rfdk69e53o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
