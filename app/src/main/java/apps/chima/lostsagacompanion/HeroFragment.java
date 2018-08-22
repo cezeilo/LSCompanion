@@ -37,10 +37,6 @@ public class HeroFragment extends Fragment {
 
     private ArrayList<Hero> heroList;
     private HeroAdapter ha;
-    private File heroDirectory;
-    private File gear;
-
-
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
